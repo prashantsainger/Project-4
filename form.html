@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" align="center" enctype="multipart/form-data">
+        <p><input type="text" name="fName" placeholder="Enter First Name"></p>
+        <p><input type="text" name="lName" placeholder="Enter Last Name"></p>
+
+        <p><input type="email" name="uEmail" placeholder="Enter Email Id"></p>
+        <p><input type="password" name="uPass" placeholder="Enter Password"></p>
+
+
+        <p>
+            <input type="radio" name="user" value="student"> Student
+            <input type="radio" name="user" value="developer"> Developer
+
+        </p>
+
+        <p>
+            <select name="course">
+                <option>Select Your Course</option>
+                <option>HTML Tute</option>
+                <option>CSS Tute</option>
+                <option>JS Tute</option>
+                <option>React Tute</option>
+            </select>
+        </p>
+
+        <p>
+            <input type="checkbox" name="ch1"> HTML
+            <input type="checkbox" name="ch1"> CSS
+            <input type="checkbox" name="ch1"> JS
+            <input type="checkbox" name="ch1"> React
+        </p>
+        <p><input type="date" name="dob"></p>
+        <p><input type="time" name="time"></p>
+
+        <p><textarea name="code" rows="10" cols="100"></textarea></p>
+        <p>
+            <input type="search" name="srch" placeholder="Enter To Search">
+        </p>
+
+        <p>
+            <input type="file" name="data" multiple>
+        </p>
+
+        <p><input type="number" name="q"> </p>
+        <p><input type="range" name="re"></p>
+        <p><input type="color" name="color"></p>
+
+        <input type="hidden" name="hid" value="otp">
+
+        <p><input type="reset"> </p>
+
+        <p><input type="submit" value="Register Now" name="register"></p>
+
+
+    </form>
+    <!-- ? fName=Ducat&lName=India -->
+    <!-- ?fName=Ducat&lName=India&register=Submit -->
+    <!-- ?fName=Ducat&lName=India&uEmail=hello%40gmail.com&uPass=123456&register=Register+Now -->
+
+    <button>Click me</button>
+
+
+
+
+
+
+
+</body>
+
+</html>
